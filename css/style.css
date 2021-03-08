@@ -10,12 +10,23 @@ a:visited{
     color:black;
 }
 
+.MdG-text-Blue{
+    color:#031b4e;
+    background-color: #f3f5f9;
+}
+
+.MdG-bg-greyForm{
+    background-color: #f3f5f9;
+}
+
+
+
+
+/*navbar*/
 .navbar {
     margin-bottom: 0;
 }
 
-
-/*navbar*/
 .navbar-default {
     background-color: #fff;
     border-color: #fff;
