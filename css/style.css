@@ -22,8 +22,20 @@ a:visited{
     background-color: #006aff;
 }
 
+.MdG-btn-primary{
+    margin-left:1px;
+    width: 99%;
+    color: #fff;
+    background-color: #006aff;
+    border-color: #006aff;
+    transition: background-color .3s ,border-color .3s;
+}
 
-
+.MdG-btn-primary:hover {    
+    color: #fff;
+    background-color: #1633ff;
+    border-color: #1633ff;
+}
 
 /*navbar*/
 .navbar {
