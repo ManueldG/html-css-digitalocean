@@ -1,0 +1,96 @@
+
+nav .navbar-brand img{
+    height: 100%;    
+}
+
+a{
+    color:black;
+}
+
+a:hover,
+a:visited{
+    color:black;
+}
+
+
+/*navbar*/
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 0 0;
+    margin-top: 13px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    color: black;
+    background-color: transparent;
+    background-image: none;
+    border: 0 solid white;
+}
+
+.navbar-toggle .material-icons.close{
+    display:none;
+}
+
+.navbar-toggle:active .material-icons.close{
+    display:inline-block;
+}
+
+.navbar-default .navbar-toggle.MdG:focus,
+ .navbar-default .navbar-toggle.MdG:hover {
+    color: black;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-toggle:active .material-icons.menu{
+    display:none;
+}
+
+/*Hero*/
+.container.hero{
+    position: relative;
+    height: 400px;
+    background-color:#0049ff;
+    overflow: hidden;   
+    z-index: 0; 
+}
+
+.container.hero .testo h1{       
+    color:white;
+    font-family: 'Inter-Bold','system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Helvetica','Arial','sans-serif';
+    letter-spacing: .5px;
+    font-size: 31px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50%;
+}
+.container.hero .testo p{       
+    color:white;
+    font-family: 'Inter-Bold','system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Helvetica','Arial','sans-serif';
+    letter-spacing: .5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container.hero img{
+    position: absolute;
+    bottom: -300%;    
+    right: -70px;
+    width: 2000px;
+}
+
+.container.hero:hover img{
+    z-index: -1;
+    bottom: 200%;
+    transition: bottom 15s;
+}
+
+
+
+
+
+
