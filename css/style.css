@@ -13,13 +13,26 @@ a:visited{
 .MdG-text-blue{
     color:#031b4e;
 }
-
+.MdG-text-white{
+    color: white;
+}
 .MdG-bg-greyForm{
     background-color: #f3f5f9;
 }
 
 .MdG-bg-blue{
     background-color: #006aff;
+}
+
+.MdG-btn-blue-hi {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.MdG-btn-blue-hi button.btn{
+    color: #006aff;
+    background-color: white;
+    border: 1px solid #006aff;
 }
 
 .MdG-btn-primary{
@@ -160,10 +173,21 @@ input:focus {
     outline: #0069ff;
 }
 
-.btn {
-
+.MdG-bottom{
+    width: 100%;
+    height:51px;
+    margin-top:50px;
+    color: white;
+    background-image: url("../img/bg-banner-home.jpg");
+    background-position: bottom;
 }
 
+.MdG-bottom a,
+.MdG-bottom a:hover,
+.MdG-bottom a:visited {
+    line-height: 51px;  
+    color: currentColor;    
+}
 
 
 
