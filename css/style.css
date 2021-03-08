@@ -10,13 +10,16 @@ a:visited{
     color:black;
 }
 
-.MdG-text-Blue{
+.MdG-text-blue{
     color:#031b4e;
-    background-color: #f3f5f9;
 }
 
 .MdG-bg-greyForm{
     background-color: #f3f5f9;
+}
+
+.MdG-bg-blue{
+    background-color: #006aff;
 }
 
 
@@ -107,16 +110,6 @@ nav .navbar-brand img{
     transition: bottom 15s;
 }
 
-.form{
-    width: 100%;
-    text-align: justify;
-    border-radius: 6px 6px 0px 0px;
-    background-color: #f3f5f9;
-    padding: 16px 0 12px 0;
-    font-size: 18px;
-    line-height: 120%;
-    letter-spacing: 0;
-}
 
 .registration h5{
     font-size: 20px;
@@ -124,7 +117,41 @@ nav .navbar-brand img{
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #f3f5f9;
 }
+
+
+.form{
+    width: 100%;
+    text-align: justify;
+    border-radius: 6px 6px 0px 0px;
+    
+    padding: 16px 0 12px 0;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+
+input{
+    width: 100%;
+    height: 48px;
+    border: 1px solid #e5e8ed;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    padding: 16px;
+    color: #031b4e;    
+}
+
+input:focus {
+    border-color: #0069ff;
+    outline: #0069ff;
+}
+
+.btn {
+
+}
+
 
 
 
