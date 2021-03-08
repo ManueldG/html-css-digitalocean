@@ -1,7 +1,5 @@
 
-nav .navbar-brand img{
-    height: 100%;    
-}
+
 
 a{
     color:black;
@@ -12,11 +10,19 @@ a:visited{
     color:black;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
 
 /*navbar*/
 .navbar-default {
     background-color: #fff;
     border-color: #fff;
+}
+
+nav .navbar-brand img{
+    height: 100%;    
 }
 
 .navbar-toggle {
@@ -54,7 +60,7 @@ a:visited{
 /*Hero*/
 .container.hero{
     position: relative;
-    height: 400px;
+    height: 450px;
     background-color:#0049ff;
     overflow: hidden;   
     z-index: 0; 
@@ -73,8 +79,9 @@ a:visited{
     color:white;
     font-family: 'Inter-Bold','system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Helvetica','Arial','sans-serif';
     letter-spacing: .5px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
+    margin-top: 30px;
 }
 .container.hero img{
     position: absolute;
@@ -87,6 +94,17 @@ a:visited{
     z-index: -1;
     bottom: 200%;
     transition: bottom 15s;
+}
+
+.form{
+    width: 100%;
+    text-align: justify;
+    border-radius: 6px 6px 0px 0px;
+    background-color: #f3f5f9;
+    padding: 16px 0 12px 0;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0;
 }
 
 
