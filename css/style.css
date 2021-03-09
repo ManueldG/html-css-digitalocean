@@ -10,6 +10,10 @@ a:visited{
     color:black;
 }
 
+.btn{
+    margin-right: 14px;
+}
+
 .MdG-text-blue{
     color:#031b4e;
 }
@@ -53,11 +57,20 @@ a:visited{
 /*navbar*/
 .navbar {
     margin-bottom: 0;
+    min-height: 66px;
 }
 
 .navbar-default {
     background-color: #fff;
     border-color: #fff;
+}
+
+.navbar-brand {
+    float: left;
+    height: 30px;
+    padding: 0px 15px;
+    font-size: 18px;
+    margin: 13px;
 }
 
 nav .navbar-brand img{
@@ -160,6 +173,13 @@ nav .navbar-brand img{
     font-size: 18px;
     line-height: 120%;
     letter-spacing: 0;
+}
+
+.registration.content.container{
+    margin: auto;
+}
+.registration .btn{
+    margin-right: 4px;
 }
 
 input{
