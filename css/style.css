@@ -100,7 +100,8 @@ nav .navbar-brand img{
 .container.hero{
     position: relative;
     height: 450px;
-    background-color:#0049ff;
+    background-image:url("../img/bg-banner-home.jpg");
+    background-size: cover;
     overflow: hidden;   
     z-index: 0; 
 }
