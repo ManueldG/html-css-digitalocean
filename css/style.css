@@ -112,7 +112,7 @@ nav .navbar-brand img{
 /*Hero*/
 .container.hero{
     position: relative;
-    height: 450px;
+    height: 50%;
     background-image:url("../img/bg-banner-home.jpg");
     background-size: cover;
     overflow: hidden;   
@@ -154,6 +154,10 @@ nav .navbar-brand img{
     }
   }
   
+.hero .box{
+    background-color: white;
+}
+
 .registration h5{
     font-size: 20px;
     font-weight: 700;
