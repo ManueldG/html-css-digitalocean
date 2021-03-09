@@ -127,16 +127,20 @@ nav .navbar-brand img{
     position: absolute;
     bottom: -300%;    
     right: -70px;
-    width: 2000px;
+    width: 200vw;
+    animation:  changebottom 10s infinite;
 }
 
-.container.hero:hover img{
-    z-index: -1;
-    bottom: 200%;
-    transition: bottom 15s;
-}
-
-
+@keyframes changebottom {
+    from {
+      bottom: -300px;
+    }
+  
+    to {
+      bottom: 200%;
+    }
+  }
+  
 .registration h5{
     font-size: 20px;
     font-weight: 700;
