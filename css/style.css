@@ -456,6 +456,9 @@ section.connection ul {
     list-style-type: none;
     margin-bottom: 40px;
     text-align: center;
+}
+
+section.connection ul:last-child {
     margin-left: 15px;
     
 }
