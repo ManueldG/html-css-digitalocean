@@ -1,3 +1,19 @@
+section .container.hero{
+    width:100%;
+}
+
+.container.hero .testo h1 {
+    letter-spacing: .5px;
+    font-size: 31px;
+    margin-top: 5%;
+}
+
+.registration.content.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
 #quote-carousel .carousel-indicators {
     bottom: -20px !important;  
 }

@@ -216,9 +216,6 @@ input:focus {
     width: 100%;
     height:51px;
     margin-top:50px;
-    color: white;
-    background-image: url("../img/bg-banner-home.jpg");
-    background-position: bottom;
 }
 
 .MdG-bottom a,
