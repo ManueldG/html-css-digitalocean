@@ -278,7 +278,7 @@ img[alt*="Splunk logo"] {
 
 /*Deploy*/
 
-section.deploy {
+/*section.deploy {
     width: calc(100% - 50px);
     padding: 10px 10px;
     margin: 60px auto;
@@ -296,7 +296,7 @@ section.deploy img.img-responsive {
 section.deploy .box {
     text-align: center;
     
-}
+}*/
 
 section.deploy-2 p {
     margin: 0 10px 10px;
@@ -317,10 +317,90 @@ section.deploy-2 ul a{
 }
 
 
+.MdG-slide {
+    display:none;
+}
+
+ .button:hover, 
+ .slide:hover{
+    display:block;
+}
 
 
 
 
+
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+.carousel-inner {
+    height: 15em;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 1em;
+}
+
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 60%;
+  height: 60%;
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
 
 
 
