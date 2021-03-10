@@ -331,6 +331,10 @@ section.deploy-2 ul a{
 
 /* carousel */
 
+.MdG-carousel{
+    background-color:#f3f5f9;
+}
+
 
 blockquote {
     font-size: 11px;
@@ -405,7 +409,33 @@ blockquote {
     float: left;
     margin-right: 10px;
 }
+ 
 
+/*nuova section features*/
+
+section.features{
+    background-color: white;
+}
+
+.features img{
+    margin:0px 30px 0px 0px;
+    min-width:auto;
+    max-width:48px;
+    width:48px;
+}
+
+.features .testo {
+    margin: 10px auto;
+}
+
+.features a {
+    color: #006aff;
+    style:none;
+}
+
+.features .material-icons{
+    vertical-align: middle;
+}
 
 
 
