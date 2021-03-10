@@ -1,9 +1,13 @@
+.container{
+
+}
+
 blockquote {
     font-size: 24px;
 }
 
 .carousel-inner {
-    height: 30hem;
+    height: 30em;
 }
 
 #quote-carousel 
