@@ -431,11 +431,34 @@ section.features{
 
 .features a {
     color: #006aff;
-    style:none;
+    font-style: none;
 }
 
 .features .material-icons{
     vertical-align: middle;
+}
+
+/*connection*/
+
+section.connection{
+    background-image: linear-gradient(to bottom, #0047c5,#00209a);
+    color: white;
+    margin: 10 0;
+}
+
+section.connection ul {
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+section.connection li  {
+    border-bottom: 1px solid white;
+}
+
+section.connection li p {
+    display: inline-block;
 }
 
 
