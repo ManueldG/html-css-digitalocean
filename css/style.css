@@ -456,6 +456,7 @@ section.connection ul {
     list-style-type: none;
     margin-bottom: 40px;
     text-align: center;
+    margin-left: 15px;
     
 }
 
@@ -467,8 +468,4 @@ section.connection li  {
 section.connection li p {
     display: inline-block;
 }
-
-
-
-
 
