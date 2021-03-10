@@ -1,5 +1,9 @@
+blockquote {
+    font-size: 11px;
+}
+
 .carousel-inner {
-    height: 24em;
+    height: 27em;
 }
 
 #quote-carousel img {

@@ -1,4 +1,10 @@
+blockquote {
+    font-size: 24px;
+}
 
+.carousel-inner {
+    height: 30hem;
+}
 
 #quote-carousel 
 {
