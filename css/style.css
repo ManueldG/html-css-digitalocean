@@ -14,6 +14,11 @@ a:visited{
     margin: 0 auto;
 }
 
+.MdG-center {
+    margin-left:50%;
+    transform: translateX(-50%);
+}
+
 .btn{
     margin-right: 14px;
 }
@@ -21,6 +26,11 @@ a:visited{
 .MdG-text-blue{
     color:#031b4e;
 }
+
+.MdG-text-blue-hi{
+    color: #fdfeff;
+}
+
 .MdG-text-white{
     color: white;
 }
@@ -358,18 +368,18 @@ blockquote {
   color: #222;
   font-size: 2.3em;
   text-shadow: none;
-  margin-top: 1em;
+  margin-top: 30%;
 }
 
 /* Previous button  */
 #quote-carousel .carousel-control.left 
 {
-  left: -12px;
+  left: 0;
 }
 /* Next button  */
 #quote-carousel .carousel-control.right 
 {
-  right: -12px !important;
+  right: 0 ;
 }
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators 
@@ -443,7 +453,7 @@ section.features{
 section.connection{
     background-image: linear-gradient(to bottom, #0047c5,#00209a);
     color: white;
-    margin: 10px auto;
+    margin-top: 10px;
 }
 
 section.connection h2 {
@@ -470,5 +480,160 @@ section.connection li  {
 
 section.connection li p {
     display: inline-block;
+}
+
+/*RokerBox*/
+
+.rokerbox{
+    background-color: #f3f5f9;
+}
+
+.rokerbox .carousel{
+    background-color: white;
+
+}
+
+.rokerbox #quote-carousel .carousel-control.left {
+    left: -128px;  
+    display:none;      
+}
+
+.rokerbox #quote-carousel .carousel-control.right {
+    right: -128px ;
+    display:none;
+}
+
+.rokerbox .carousel-inner {
+    overflow: inherit;
+}
+
+.rokerbox #quote-carousel .carousel-indicators {
+    bottom: -5px !important;
+}
+
+.rokerbox #quote-carousel .carousel-indicators li {
+    background-color: #00000000;
+    border: 2px solid #0069ff;
+}
+
+.rokerbox #quote-carousel .carousel-indicators .active {
+    background-color: #0069ff;
+    border: 2px solid #0069ff;
+}
+
+/* Registration*/
+
+section.registration{
+    background:#0035ae;
+}
+
+section.registration button.button{
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 22rem;
+    margin-bottom: 40px;
+}
+
+section.registration button.button a{
+    color: #006aff;
+    font-weight: 700;
+}
+
+section.registration button.button:hover a{
+    color: #092750;
+    text-decoration: none;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: #031c4e;
+    color:white;
+    padding-top: 60px;
+}
+
+footer a,
+footer a:visited{
+    color: #9ca4b6;
+}
+
+footer a:hover{
+    color:#fff;
+}
+
+footer ul li{
+    list-style-type: none;
+    list-style-position: inside;
+    margin-left: 0;  
+}
+
+footer .social ul li{
+    display: inline-block;   
+}
+
+section.chat {
+    border-radius: 5px;
+    background-color: #006aff;
+    position: fixed;
+    bottom:50px;
+    right: 50px;
+}
+
+section.chat .circle {
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff0001;
+    border: 3px solid white;
+    border-radius: 50%;
+    left: 43px;
+    padding: 5px;
+    line-height: 8px;
+    bottom: 29px;
+}
+
+section.chat .MdG-hide {
+    position: absolute;
+    width: 200px;
+    right: 75px;
+    bottom: 10px;
+    display: none;
+    background-color: white;
+    color: #031c4e;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+section.chat .MdG-hide span {
+    position: absolute;
+    bottom: 16px;
+    right: -9px;
+    background-color: white;
+    display: none;
+    transform: rotate(45deg);
+    padding: 8px;
+    filter: drop-shadow(8px,8px,2px,black);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+section.chat:focus .MdG-hide,
+section.chat:focus .MdG-hide span {    
+    display: inline-block;
+}
+
+
+section.chat .icona img{
+    width: 60px;    
 }
 

@@ -15,8 +15,9 @@ section .container.hero{
 }
 
 #quote-carousel .carousel-indicators {
-    bottom: -20px !important;  
+    bottom: -20px;  
 }
+
 #quote-carousel .carousel-indicators li {
     display: inline-block;
     margin: 0px 5px;
@@ -37,6 +38,20 @@ section .container.hero{
     width: 100%;    
 }
 
-.carousel-control {
-    top: 30%;
+
+.rokerbox #quote-carousel .carousel-control.left .medium{
+    display:none;      
 }
+
+.rokerbox #quote-carousel .carousel-control.right .medium{
+    display:none;
+}
+
+.rokerbox #quote-carousel .carousel-control.left .large {
+    display:block;      
+}
+
+.rokerbox #quote-carousel .carousel-control.right .large {
+    display:block;
+}
+

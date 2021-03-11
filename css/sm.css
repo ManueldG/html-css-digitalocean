@@ -9,3 +9,15 @@ blockquote {
 #quote-carousel img {
     width: 80%;
 }
+
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -5px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -5px ;
+}
+
