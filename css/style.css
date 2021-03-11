@@ -627,13 +627,36 @@ section.chat .MdG-hide span {
     border-right: 1px solid black;
 }
 
-section.chat:focus .MdG-hide,
-section.chat:focus .MdG-hide span {    
+section.chat:hover .MdG-hide,
+section.chat:hover .MdG-hide span {    
     display: inline-block;
 }
-
 
 section.chat .icona img{
     width: 60px;    
 }
 
+/* personalizzazione checkbox */
+/*
+#prova img{
+    width: 60px;    
+}
+
+#prova input[type="checkbox"]  {
+	display:none;
+}
+
+#prova input + label {
+	display: inline-block;	
+	width: 60px;
+	height: 30px;
+	cursor: pointer;	
+	background-image: url(../img/shark.png);
+}
+
+#prova input[type="checkbox"]:checked + label {
+    background-color: black;
+	background-image: url(../img/google-icon.png)
+}
+
+*/
